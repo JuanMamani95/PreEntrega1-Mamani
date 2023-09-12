@@ -1,5 +1,4 @@
 import {BsCart3} from 'react-icons/bs'
-import './styles.css'
 import { Badge } from '@mui/material';
 
 export const CartWidget = () => {
