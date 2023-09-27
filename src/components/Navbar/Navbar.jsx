@@ -1,5 +1,5 @@
 import { CartWidget } from '../CartWidget/CartWidget'
-import { ItemListContainer } from '../ItemListContainer/ItemListContainer'
+import { ItemLinkContainer } from '../ItemLinkContainer/ItemLinkContainer'
 import './styles.css'
 
 export const Navbar = () => {
@@ -8,7 +8,8 @@ export const Navbar = () => {
     
     return (
         <div className='navbar'>
-            <ItemListContainer  router={links} />
+            <a href="#"><img src="/src/components/Navbar/img/logo.png" alt="logo" /></a>
+            <ItemLinkContainer  router={links} />
             <CartWidget />            
         </div>
     )

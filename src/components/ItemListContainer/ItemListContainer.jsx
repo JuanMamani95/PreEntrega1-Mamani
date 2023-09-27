@@ -1,13 +1,26 @@
-import './styles.css'
+import { useState, useEffect } from "react";
+import { ItemList } from "./ItemList"
+import { pedirProductos } from "../pedirProductos"
 
-export const ItemListContainer = (props) => {
-    const {router} = props
+export const ItemListContainer = () => {
+
+    const [productos, setProductos] = useState([]);
+
+    
+
+    useEffect(() => {
+        pedirProductos()
+            .then((res) => {
+                setProductos(res);
+            })
+    }, [])
 
     return (
-        <div className='itemContainer'>
-            {router.map((ruta) => (
-                <a href="#" key={ruta}>{ruta}</a>
-            ))}
+
+        <div>
+            <ItemList productos={productos} />
         </div>
     )
 }
+
+export default ItemListContainer;
