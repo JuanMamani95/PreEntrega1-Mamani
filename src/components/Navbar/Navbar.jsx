@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { CartWidget } from '../CartWidget/CartWidget'
 import { ItemLinkContainer } from '../ItemLinkContainer/ItemLinkContainer'
 import './styles.css'
@@ -8,7 +9,7 @@ export const Navbar = () => {
     
     return (
         <div className='navbar'>
-            <a href="#"><img src="/src/components/Navbar/img/logo.png" alt="logo" /></a>
+            <Link to="/"><img src="/src/components/Navbar/img/logo.png" alt="logo" /></Link>
             <ItemLinkContainer  router={links} />
             <CartWidget />            
         </div>

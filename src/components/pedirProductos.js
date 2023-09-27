@@ -10,7 +10,7 @@ export const pedirProductos = () => {
 
 export const pedirItemPorId = (id) => {
     return new Promise ((resolve, reject) => {
-        const item = data.find((el) => el.id === id)
+        const item = data.find((el) => el.id === id);
 
         if (item) {
             resolve (item)
@@ -22,4 +22,3 @@ export const pedirItemPorId = (id) => {
     }) 
 }
 
-export default pedirProductos;
