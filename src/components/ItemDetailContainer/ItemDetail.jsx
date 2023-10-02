@@ -1,13 +1,16 @@
 
 
-export const ItemDetail = ({item}) => {
+export const ItemDetail = ({ item }) => {
     return (
-        <div>
-            <img src={item.image} alt={item.title} />
-            <h2>{item.title}</h2>
-            <p>Categoria: {item.category}</p>
-            <p>Precio: {item.price}</p>
+        <div className="container">
+            <div className="producto-detalle">
+                <img src={item.image} alt={item.title} />
+                <div>
+                    <h3 className="titulo">{item.title}</h3>
+                    <p className="categoria">Categoria: {item.category}</p>
+                    <p className="precio">${item.price}</p>
+                </div>
+            </div>
         </div>
     )
 }
-export default ItemDetail;

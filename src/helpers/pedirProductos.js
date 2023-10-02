@@ -1,4 +1,4 @@
-import data from './ItemListContainer/productos.json' 
+import data from '../data/productos.json';
 
 export const pedirProductos = () => {
     return new Promise ((resolve, reject) => {
@@ -20,5 +20,9 @@ export const pedirItemPorId = (id) => {
             }) 
         }
     }) 
+}
+
+export function toCapital(str) {
+    return str.charAt(0).toUpperCase() + str.splice(1);
 }
 

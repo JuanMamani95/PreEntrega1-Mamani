@@ -1,17 +1,17 @@
-import Item from "./Item";
+import { Item } from "./Item"
+import { toCapital } from "../../helpers/pedirProductos";
+import './item.css';
 
-export const ItemList = ({productos}) => {
+
+
+export const ItemList = ({ productos, titulo }) => {
     return (
-        <div>
-            {
-                productos.length > 0 &&
-                productos.map((producto) => {
-                    return (
-                        <Item key={producto.id} producto={producto} />
-                    )
-                })
-            }
+        <div className="container">
+            <h2 className="main-title"> {titulo} </h2>
+
+            <div className="productos">
+                {productos.map((prod) => <Item producto={prod} key={prod.id} />)}
+            </div>
         </div>
     )
 }
-export default ItemList;
