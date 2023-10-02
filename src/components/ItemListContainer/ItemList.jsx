@@ -1,5 +1,4 @@
 import { Item } from "./Item"
-import { toCapital } from "../../helpers/pedirProductos";
 import './item.css';
 
 

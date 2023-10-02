@@ -2,147 +2,147 @@
     {
         "id": 1,
         "title": "Chipa",
-        "image": "./img/01.jpg",
+        "image": "/src/data/img/01.jpg", 
         "category": "salado",
         "price": 1000
     },
     {
         "id": 2,
         "title": "Cremona",
-        "image": "../data/img/panaderia/02.jpg",
+        "image": "/src/data/img/02.jpg",
         "category": "salado",
         "price": 1000
     },
     {
         "id": 3,
         "title": "Criollos",
-        "image": "../data/img/panaderia/03.jpg",
+        "image": "/src/data/img/03.jpg",
         "category": "salado",
         "price": 1000
     },
     {
         "id": 4,
         "title": "Medialunas",
-        "image": "../data/img/panaderia/04.jpg",
+        "image": "/src/data/img/04.jpg",
         "category": "salado",
         "price": 1000
     },
     {
         "id": 5,
         "title": "Sandwich de Miga",
-        "image": "../data/img/panaderia/05.jpg",
+        "image": "/src/data/img/05.jpg",
         "category": "salado",
         "price": 1000
     },
     {
         "id": 6,
         "title": "Tarta de Frutilla",
-        "image": "./img/panaderia/06.jpg",
+        "image": "/src/data/img/06.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 7,
         "title": "Lemon Pie",
-        "image": "./img/panaderia/07.jpg",
+        "image": "/src/data/img/07.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 8,
         "title": "Rogel",
-        "image": "./img/panaderia/08.jpg",
+        "image": "/src/data/img/08.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 9,
         "title": "Cheescake",
-        "image": "./img/panaderia/09.jpg",
+        "image": "/src/data/img/09.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 10,
         "title": "Chocotorta",
-        "image": "./img/panaderia/10.jpg",
+        "image": "/src/data/img/10.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 11,
         "title": "Torta Oreo",
-        "image": "./img/panaderia/11.jpg",
+        "image": "/src/data/img/11.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 12,
         "title": "Red Velvet",
-        "image": "./img/panaderia/12.jpg",
+        "image": "/src/data/img/12.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 13,
         "title": "Cupcakes",
-        "image": "./img/panaderia/13.jpg",
+        "image": "/src/data/img/13.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 14,
         "title": "Donas Glaseadas",
-        "image": "./img/panaderia/14.jpg",
+        "image": "/src/data/img/14.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 15,
         "title": "Pastafrola",
-        "image": "./img/panaderia/15.jpg",
+        "image": "/src/data/img/15.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 16,
         "title": "Macarons",
-        "image": "./img/panaderia/16.jpg",
+        "image": "/src/data/img/16.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 17,
         "title": "Alfajores de Maicena",
-        "image": "./img/panaderia/17.jpg",
+        "image": "/src/data/img/17.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 18,
         "title": "Masas Finas",
-        "image": "./img/panaderia/18.jpg",
+        "image": "/src/data/img/18.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 19,
         "title": "Masas Secas",
-        "image": "./img/panaderia/19.jpg",
+        "image": "/src/data/img/19.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 20,
         "title": "Petit Four",
-        "image": "./img/panaderia/20.jpg",
+        "image": "/src/data/img/20.jpg",
         "category": "dulce",
         "price": 1000
     },
     {
         "id": 21,
         "title": "Tarta de Ricota",
-        "image": "./img/panaderia/21.jpg",
+        "image": "/src/data/img/21.jpg",
         "category": "dulce",
         "price": 1000
     }
