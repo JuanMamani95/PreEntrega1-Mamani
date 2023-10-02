@@ -6,7 +6,7 @@ export const Navbar = () => {
 
     return (
     <nav className="navbar">
-        <Link to="/" className="logo"><h1>Nuestras Delicias</h1></Link>
+        <Link to="/" className="logo"><img src="/src/data/img/logo.png" alt="logo" /></Link>
         <ul className="menu">
             <li><Link to="/" className="menu-link">Inicio</Link></li>
             <li><Link to="/productos" className="menu-link">Productos</Link></li>

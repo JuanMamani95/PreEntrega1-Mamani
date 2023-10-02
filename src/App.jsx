@@ -12,13 +12,14 @@ function App () {
 
 
                 <Navbar />
-
-                <Routes>
-                    <Route path="/" element={<ItemListContainer />}/>
-                    <Route path="/item/:id" element={<ItemDetailContainer />}/>
-                    <Route path="/productos" element={<ItemListContainer />}/>
-                    <Route path="/productos/:category" element={<ItemListContainer />}/>
-                </Routes>
+                <main className='mainContainer'>
+                    <Routes>
+                        <Route path="/" element={<ItemListContainer />}/>
+                        <Route path="/item/:id" element={<ItemDetailContainer />}/>
+                        <Route path="/productos" element={<ItemListContainer />}/>
+                        <Route path="/productos/:category" element={<ItemListContainer />}/>
+                    </Routes>
+                </main>
 
 
             </BrowserRouter>

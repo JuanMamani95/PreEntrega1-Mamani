@@ -5,9 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
-:root {
-    --clr-main: #c56cee;
-    --clr-main-light: #efdaf9;
+.mainContainer {
+    background-color: rgb(163, 42, 42);
 }

@@ -1,30 +1,36 @@
 .navbar {
-    padding: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: var(--clr-main);
-    border-bottom: 3px solid black;
+    background-image: url("../../data/img/fondo.jpg");
+    border-bottom: 3px solid rgb(199, 179, 0);
 }
 
-.logo {
-    text-decoration: none;
-    color: black;
+.logo img {
+    margin-bottom: -4px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(199, 179, 0);
 }
 
 .menu {
     list-style-type: none;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    gap: 80px;
 }
 
 .menu-link {
     text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
+    color: rgb(199, 179, 0);
+    background-color: rgb(163, 42, 42);
+    padding: 20px;
+    border-radius: 75%;
+    font-size: 20px;
+    transition: .3s;
 }
 
 .menu-link:hover {
-    text-decoration: underline;
+    background-color: rgb(114, 30, 30);
+    color: white;
 }
+
