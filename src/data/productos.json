@@ -4,146 +4,167 @@
         "title": "Chipa",
         "image": "/src/data/img/01.jpg", 
         "category": "salado",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 2,
         "title": "Cremona",
         "image": "/src/data/img/02.jpg",
         "category": "salado",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 3,
         "title": "Criollos",
         "image": "/src/data/img/03.jpg",
         "category": "salado",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 4,
         "title": "Medialunas",
         "image": "/src/data/img/04.jpg",
         "category": "salado",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 5,
         "title": "Sandwich de Miga",
         "image": "/src/data/img/05.jpg",
         "category": "salado",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 6,
         "title": "Tarta de Frutilla",
         "image": "/src/data/img/06.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 7,
         "title": "Lemon Pie",
         "image": "/src/data/img/07.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 8,
         "title": "Rogel",
         "image": "/src/data/img/08.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 9,
         "title": "Cheescake",
         "image": "/src/data/img/09.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 10,
         "title": "Chocotorta",
         "image": "/src/data/img/10.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 11,
         "title": "Torta Oreo",
         "image": "/src/data/img/11.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 12,
         "title": "Red Velvet",
         "image": "/src/data/img/12.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 13,
         "title": "Cupcakes",
         "image": "/src/data/img/13.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 14,
         "title": "Donas Glaseadas",
         "image": "/src/data/img/14.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 15,
         "title": "Pastafrola",
         "image": "/src/data/img/15.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 16,
         "title": "Macarons",
         "image": "/src/data/img/16.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 17,
         "title": "Alfajores de Maicena",
         "image": "/src/data/img/17.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 18,
         "title": "Masas Finas",
         "image": "/src/data/img/18.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 19,
         "title": "Masas Secas",
         "image": "/src/data/img/19.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 20,
         "title": "Petit Four",
         "image": "/src/data/img/20.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     },
     {
         "id": 21,
         "title": "Tarta de Ricota",
         "image": "/src/data/img/21.jpg",
         "category": "dulce",
-        "price": 1000
+        "price": 1000,
+        "stock": 10
     }
 ]
