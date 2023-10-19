@@ -3,6 +3,7 @@ import { CartContext } from "../Context/CartContext";
 import { useForm } from "react-hook-form";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
+import { Carrito } from "../Carrito/Carrito";
 
 
 export const Checkout = () => {
@@ -40,6 +41,7 @@ export const Checkout = () => {
     
     return (
         <div>
+            <Carrito />
             <h1>Finalizar Compra</h1>
             <form onSubmit={handleSubmit(comprar)}>
                 <input type="text" placeholder="Ingresa tu Nombre" {...register("nombre")} />
