@@ -7,6 +7,7 @@ import { Navbar } from './components/Navbar/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { CartProvider } from './components/Context/CartContext';
 import { Checkout } from './components/Checkout/Checkout';
+import { Footer } from './components/Footer/Footer';
 
 
 function App () {
@@ -26,6 +27,7 @@ function App () {
                             <Route path="/checkout" element={<Checkout /> }/>
                         </Routes>
                     </main>
+                    <Footer />
                 </BrowserRouter>
             </CartProvider>
         </div>

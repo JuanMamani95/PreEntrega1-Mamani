@@ -33,7 +33,7 @@ export const Checkout = () => {
     if (pedidoId) {
         return (
             <div className="carrito-container">
-                <h1>Muchas Gracias por su Compra</h1>
+                <h1 className="check-title">Muchas Gracias por su Compra</h1>
                 <p>Tu numero de pedido es: {pedidoId}</p>
             </div>
         )

@@ -4,6 +4,9 @@
     text-align: center;
     
 }
+.check-title {
+    font-size: 33px;
+}
 .container-check .title-check {
     text-align: center;
     padding-top: 50px;

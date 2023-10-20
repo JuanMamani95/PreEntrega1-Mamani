@@ -1,0 +1,53 @@
+.pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid rgb(226, 183, 10);
+    background-image: url(../../data/img/fondo.jpg);
+    margin-top: 60px;
+    max-height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.texto {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.texto h1{
+    font-size: 40px;
+    letter-spacing: 7px;
+    color: #400;
+}
+.logos {
+    display: flex;
+    margin-bottom: 25px;
+}
+.logos img{
+    margin: auto;
+    margin: 20px;
+    width: 50px;
+    transition: .5s;   
+}
+.logos img:hover {
+    transform: scale(1.2);
+} 
+.derechos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.derechos h2, h1{
+    font-size: 15px;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.derechos b {
+    font-size: 15px;
+    margin: auto;
+}
+.derechos img {
+    width: 20px;
+}
