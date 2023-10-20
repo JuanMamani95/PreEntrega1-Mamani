@@ -1,0 +1,39 @@
+.container-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+.container-form .title-form {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(199, 179, 0);
+}
+.container-form .form-contact .item-form{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+.container-form .form-contact .item-form:focus {
+    outline: 0;
+    border: 2px solid rgb(199, 179, 0);
+    outline: 2px solid rgb(199, 179, 0);
+}
+.container-form .form-contact .submit-button {
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(163, 42, 42);
+    color: rgb(199, 179, 0);
+    border: 2px solid rgb(199, 179, 0);
+    cursor: pointer;
+    transition: .3s;
+}
+.container-form .form-contact .submit-button:hover {
+    background-color: rgb(114, 30, 30);
+    color: white;
+}

@@ -1,0 +1,40 @@
+.container-check {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.container-check .title-check {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(199, 179, 0);
+}
+.container-check .form-check .item-check {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+.container-check .form-check .item-check:focus {
+    outline: 0;
+    border: 2px solid rgb(199, 179, 0);
+    outline: 2px solid rgb(199, 179, 0);
+}
+.container-check .form-check .submit-check {
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(163, 42, 42);
+    color: rgb(199, 179, 0);
+    border: 2px solid rgb(199, 179, 0);
+    cursor: pointer;
+    transition: .3s;
+}
+.container-check .form-check .submit-check:hover {
+    background-color: rgb(114, 30, 30);
+    color: white;
+}
